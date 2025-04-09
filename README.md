@@ -33,15 +33,3 @@ The model integrates **Monte Carlo Dropout (MCD)** to assess the uncertainty of 
   - IQR-based selection (e.g., `IQR ≤ 0.15`) improves focal mechanism estimation
 
 ---
-
-## 📁 Repository Structure
-
-```bash
-PoViT-UQ/
-│
-├── model/               # Model architecture and training scripts
-├── data/                # Sample waveform formats and preprocessing tools
-├── utils/               # Helper functions (evaluation, visualization, etc.)
-├── notebooks/           # Example Jupyter notebooks
-├── requirements.txt     # Required Python packages
-└── README.md            # This file
