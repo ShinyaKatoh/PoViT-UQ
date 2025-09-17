@@ -8,9 +8,8 @@ A deep learning model for estimating initial P-wave polarity and arrival time fr
 ## 🌍 Overview
 
 PoViT-UQ is a Vision Transformer (ViT)-based model that simultaneously performs:
-- Initial P-wave polarity classification (`Up`, `Down`, `Noise`)
-- P-wave arrival time estimation  
-with uncertainty quantification.
+- Initial P-wave polarity classification (`Up`, `Down`, `Noise`) and P-wave arrival time estimation with uncertainty quantification.
+
 
 The model integrates **Monte Carlo Dropout (MCD)** to assess the uncertainty of each prediction, enabling selection of high-confidence data for robust focal mechanism estimation.
 
